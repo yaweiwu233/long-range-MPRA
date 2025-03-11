@@ -1,0 +1,12 @@
+rep1_bin1
+rep1_bin2
+rep1_bin3
+rep1_bin4
+rep2_bin1
+rep2_bin2
+rep2_bin3
+rep2_bin4
+rep3_bin1
+rep3_bin2
+rep3_bin3
+rep3_bin4
