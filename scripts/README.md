@@ -1,7 +1,7 @@
 ## Contents
 
 ### Python scripts and sbatch scripts
-- `BC_demultiplex_supervised.py` is a python script to count eBCs, gBCs (dBCs) and rBCs from fastq files. It will generate a barcode count table and a barcode distribution plot for QC purpose. 
+- `BC_demultiplex_supervised.py` is a python script to count eBCs, dBCs and rBCs from fastq files. It will generate a barcode count table and a barcode distribution plot for QC purpose. 
 - `BC_demultiplex.sbatch` is a sbatch file to run BC_demultiplex_supervised.py on the HPC cluster
 
 ### Jupyter Notebooks
@@ -14,8 +14,8 @@ The jupyter notebooks contains scripts to furter analyze barcode count tables an
 ### Additional files
 This folder also contains several reference files required for analysis.
 - `sample_ID.txt` contains the names of fastq files.
-- `gBCs.txt` contains gBC (dBC) information.
-- `pYWD15_cBCs.txt` contains barcode information for the LCR HS combination library.
+- `dBCs.txt` contains distance barcode information.
+- `pYWD15_eBCs.txt` contains barcode information for the LCR HS combination library.
 - `total_library_final_with_BC.txt` contains barcode information and annotations for the GATA1/non-GATA1 enhancer library.
 - `total_library_final_with_BC_no_head_closest_P` is a modified version where each library member is assigned to its nearest promoter-like element.
   
