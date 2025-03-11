@@ -2,7 +2,7 @@
 
 This repository contains code for the paper "Long-range massively parallel reporter assay reveals rules of distant enhancer-promoter interactions". 
 
-### scripts
+## scripts
 The *script* folder contains scripts and files used for analyzing long-range MPRA data.
 It includes Python scripts for barcode demultiplexing and Jupyter Notebooks for QC, data exploration and visualization. 
 
