@@ -10,6 +10,7 @@ The jupyter notebooks contains scripts to furter analyze barcode count tables an
 - `02_GATA_library_features.ipynb` contains code to analyze sequence and epigenetic features of GATA1 and non-GATA1 enhancers in out library. This script uses ChIP-seq bigWig files and plasmid-based MPRA data downloaded from the ENCODE portal.
 - `03_enhancer_synergy_analysis.ipynb` contains code to analyze long-range MPRA data of LCR HS combination library at 0,3,10,20,50 and 100kb of HBG promoter.
 - `04_compare_across_promoters.ipynb` contains code to compare long-range MPRA data across HBG, HBE and GAPDH promoter.
+- `05_individual_enhancer_validation.ipynb` contains code to compare long-range MPRA measurements to individually measured enhancer activities obtained via flow cytometry or RT-qPCR.
 
 ### Additional files
 This folder also contains several reference files required for analysis.
